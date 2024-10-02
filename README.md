@@ -35,13 +35,9 @@ source install/setup.bash
 ```
 6. Now launch the Gazebo environment
 ```
-ros2 launch mobile_robot gazebo.launch.py
+ros2 launch enpm673_final_proj enpm673_world.launch.py 
 ```
-7. For teleop script run:
+7. For navigation script run:
 ```
-ros2 run mobile_robot teleop.py   
-```
-8. For Contoller script (commanding the robot to move to a particular point in space) run:
-```
-ros2 run mobile_robot robotControl.py
+ros2 run perception percept  
 ```
