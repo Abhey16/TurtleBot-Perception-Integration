@@ -1,6 +1,31 @@
 # TurtleBot-Perception-Integration
 
+This repository contains ROS2 (Humble) package developed for the Turtlebot Waffle perception and planning challenge as part of the **ENPM673: Perception for Autonomous Robots** course (Spring 2024) at the University of Maryland.
+
 ---
+
+## Project Overview
+
+The project focuses on the integration of advanced perception algorithms and planning techniques to enable autonomous navigation for a Turtlebot equipped with a color camera. The key challenges addressed include:
+
+### Projective Geometry
+- Detects horizon line using parallel line intersection and vanishing point calculation.
+- Visualizes detected horizon line in real-time.
+
+### Object Detection (Stop Sign)
+- Implements stop sign detection with YOLOv5.
+- Draws bounding boxes and indicates detection status.
+- Stops the robot when a stop sign is confidently detected.
+
+### Dynamic Obstacle Detection
+- Utilizes optical flow to identify dynamic obstacles.
+- Marks obstacles as "above" or "below" the horizon line.
+- Stops robot movement upon detecting obstacles below the horizon line.
+
+### Autonomous Navigation
+- Calculates waypoints dynamically using visual cues.
+- Adjusts robot movement based on the position of detected lanes and obstacles.
+- Performs real-time trajectory correction using planning algorithms.
 
 ## Gazebo Implementation
 
