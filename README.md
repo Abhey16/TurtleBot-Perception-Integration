@@ -27,6 +27,8 @@ The project focuses on the integration of advanced perception algorithms and pla
 - Adjusts robot movement based on the position of detected lanes and obstacles.
 - Performs real-time trajectory correction using planning algorithms.
 
+---
+
 ## Gazebo Implementation
 
 https://github.com/Abhey16/TurtleBot-Perception-Integration/assets/132549463/2a4b8be9-32b5-4a3f-826b-779dacaab7e1
